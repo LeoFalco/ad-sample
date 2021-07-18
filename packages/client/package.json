@@ -1,0 +1,11 @@
+{
+  "name": "ad-sample-client",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx browser-sync start --server ./src --files './**/*.*'"
+  },
+  "devDependencies": {
+    "browser-sync": "2.27.4"
+  },
+  "dependencies": {}
+}

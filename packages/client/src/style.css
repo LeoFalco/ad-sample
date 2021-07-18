@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: .95rem;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 15px;
+  gap: 15px;
+}
+
+.row {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.input {
+  height: 2.5rem;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.label {
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+}

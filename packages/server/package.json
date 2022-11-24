@@ -8,7 +8,7 @@
   "devDependencies": {
     "browser-sync": "2.27.10",
     "cors": "2.8.5",
-    "nodemon": "2.0.12"
+    "nodemon": "2.0.20"
   },
   "dependencies": {
     "express": "4.17.1",
